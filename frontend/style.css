@@ -1,0 +1,35 @@
+
+  .column{
+      float: left;
+      width: 22%;
+      margin-bottom: 10px;
+      padding: 0 10px;
+      text-align: center;
+  }
+
+.card{
+    width: 300px;
+    height: 70px;
+}
+
+.body{
+    background-color: #e8d3b9;
+}
+
+.coffee-cup{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: (-50%, -50%);
+    font-size: 30px;
+}
+.container{
+    position: relative;
+}
