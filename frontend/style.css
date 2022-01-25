@@ -35,6 +35,7 @@
 
 .title{
     font-family: 'Poppins', sans-serif;
+    
 }
 
 .center{
@@ -42,9 +43,13 @@
     top: 50%;
     left: 47%;
     transform: (-50%, -50%);
-    font-size: 30px;
+    font-size: 33px;
     font-family: 'Poppins', sans-serif;
+    color: black;
+    
+    
 }
+
 .container{
     position: relative;
 }
