@@ -33,12 +33,17 @@
     
 }
 
+.title{
+    font-family: 'Poppins', sans-serif;
+}
+
 .center{
     position: absolute;
     top: 50%;
     left: 47%;
     transform: (-50%, -50%);
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     position: relative;
@@ -51,5 +56,9 @@
 }
 
 .paragraph{
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.names{
+    font-family: 'Poppins', sans-serif;
 }
