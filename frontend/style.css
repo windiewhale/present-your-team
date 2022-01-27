@@ -1,38 +1,47 @@
-/*header{
-  color: #532200;
-  font-family: 'Gloria Hallelujah', cursive;
-  height: 20vh;
-  width: 1200px;
-  padding: 0;
-  display: flex;
-  top: 0;
-  font-size: 4vh;
-}*/
+
+
 
 header{
-  padding: 50px 160px 50px 160px;
+  display: flex;
+  padding: 50px 200px 50px 160px;
   text-align: center;
   height: 190px;
-  margin: 0px 0px 70px 0px;
+  margin: 0px 0px 200px 0px;
 
 }
+header p{
+  margin:0px;
+  font-size:300px;
+  font-family: 'Damion', cursive;
+  text-shadow: 6px 6px #BF9053;
+  
+}
+#headerp{
+  width: 500px;
+  flex-grow: 1;
+}
 
-#root{
+
+/*#root{
   width: 200px;
   height: 200px;
   background-image: url(https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png);
   background-size: 200px 200px;
-  margin-left: 35%;
- 
-}
-#root p{
-  text-align: center;
-  vertical-align: middle;
-  line-height: 70px;
-  font-family: 'Damion', cursive;
-  font-size: 60px; 
-  font-weight: bold;
+  margin-left: 35%; 
+ }
+ */
 
+
+#root img{
+  width:80px;
+  height:80px;
+  float: left;
+  padding: 120px 0px 0px 0px;
+}
+
+#root{
+  flex-grow: 2;
+  max-width: 150px;
 }
 
 .column{
@@ -42,8 +51,8 @@ header{
   padding: 0px;
   text-align: center;
   border-radius: 5%;
-  background-color: #ece0d1;
-  box-shadow: 10px 10px  #684726, 20px 20px #BF9053; 
+  background-color: #DABE99;
+  box-shadow: 10px 10px  #684726 /* 20px 20px #BF9053;*/; 
   height: 380px;
 }
 
@@ -56,6 +65,7 @@ header{
  /* margin: 0;*/
   font-family: 'Outfit', sans-serif;
   color:  #652817;
+  
   
 }
 
@@ -88,8 +98,12 @@ header{
     text-align: left;
   }
 h2{ 
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Damion', cursive;
   font-size: 50px;
+  text-shadow: 3px 3px #BF9053;
+  background-color: #ece0d1;
+  margin:0px;
+  
 }
 
 .leftside{
@@ -98,9 +112,10 @@ h2{
   padding: 10px;
 }
 
-p{
+.p{
     text-align: justify;
     line-height: 30px;
+    font-family: 'Damion', cursive;
 }
 .rightside{
     float: left;
@@ -118,6 +133,7 @@ p{
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
+  background-color: #DABE99;
 }
 
 .contant{
@@ -125,9 +141,9 @@ p{
     height: 400px;
     float:left;
     padding: 20px 20px 120px 20px;
-    margin: 10px;
-    background-color: #ece0d1;
-    box-shadow: 10px 10px  #684726, 20px 20px #BF9053; 
+    margin: 10px 10px 10px 10px;
+    background-color: #DABE99;
+    box-shadow: 10px 10px  #684726 /*20px 0px #BF9053*/; 
     border-radius: 15px;
 }
 
@@ -140,8 +156,8 @@ p{
 }
 
 .contant ul{
-  text-align: justify;
-  list-style: inside;
+  text-align: left;
+  list-style: square;
   padding-inline-start: 20px;
 }
 .contant li{
@@ -158,15 +174,11 @@ p{
 }*/
 
 .heading{
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Damion', cursive;
   font-size: 30px;
 }
 
-#container{
-  width: 1200px;
-  height: 880px;
-  
-}
+
 
 .row{
   position: relative;
@@ -179,10 +191,13 @@ p{
 }*/
 .container2{
   text-align: left;
+  background-color: #ece0d1; 
 }
 
 .container2 ul{
   padding-inline-start: 20px;
+  background-color: #DABE99;
+
 }
 
 .column img{
@@ -194,6 +209,24 @@ p{
   text-align: left;
   vertical-align: middle;
   font-family: 'Damion', cursive;
-  font-size: 45px;
   font-weight: bold;
+}
+
+.team p{
+  text-shadow: 3px 3px #BF9053;
+  font-size: 50px;
+  margin: 0px;
+  background-color: #ece0d1;
+  padding: 10px;
+  
+}
+
+footer{
+  color:#652817;
+  background-color: #ece0d1;
+  
+}
+footer p{
+  text-align:center;
+  margin:0px;
 }
