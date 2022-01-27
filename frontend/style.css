@@ -29,7 +29,7 @@ header{
   text-align: center;
   vertical-align: middle;
   line-height: 70px;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Damion', cursive;
   font-size: 60px; 
   font-weight: bold;
 
@@ -188,4 +188,12 @@ p{
 .column img{
   margin-top: 30px;
   border-color: #BF9053;
+}
+
+.team{
+  text-align: left;
+  vertical-align: middle;
+  font-family: 'Damion', cursive;
+  font-size: 45px;
+  font-weight: bold;
 }
