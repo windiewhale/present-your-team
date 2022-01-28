@@ -78,9 +78,10 @@ header p{
 
 .container{
   position: relative;
-  text-align: left;
   width: 1200px;
   margin: 0px 0px 0px -85px;
+  text-align: justify;
+  font-size: 18px; 
   
 }
 
@@ -104,7 +105,7 @@ h2{
   text-shadow: 3px 3px #BF9053;
   background-color: #ece0d1;
   margin:0px;
-  padding: 0px 0px 0px 40px;
+  padding: 0px 0px 20px 40px;
 }
 
 .leftside{
